@@ -1,0 +1,225 @@
+/* You can add global styles to this file, and also import other style files */
+.img1 {
+
+    height: 55%;
+
+    width: 80%;
+
+    background: red;
+
+    z-index: 1;
+
+  }
+
+  .img2 {
+
+    height: 43%;
+
+    width: 66%;
+
+    background: #aaa;
+
+    position: absolute;
+
+    top: 23%;
+
+    left: 30%;
+
+    z-index: 100;
+
+  }
+
+  .justify-cls{
+
+    justify-content: center;
+
+    margin: 0 auto;
+
+  }
+
+  .remove-margin{
+
+    margin-bottom:0
+
+  }
+
+  .input1-align{
+
+    justify-content: flex-end; 
+
+    display: flex;
+
+  }
+
+  .input2-align{
+
+    justify-content: flex-start; 
+
+    display: flex;
+
+  }
+
+  .input-width{
+
+      width: 70%;
+
+  }
+
+  .justify-center{
+
+    justify-content: center; 
+
+    display: flex;
+
+  }
+
+  .a-color{
+
+      color: #ffffff;
+
+      cursor: pointer;
+
+  }
+
+  a:hover {
+
+    /*color:  #ffffff;*/
+
+    text-decoration: underline;
+
+    }
+
+  .banner {
+
+    background-image: url("images/banner3.jpg");
+
+    background-size: cover;
+
+    height: 600px;
+
+    width: 100%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    margin-bottom: 32px;
+
+  }
+  .fa {
+  padding: 20px;
+  font-size: 10px;
+  width: 50px;
+  height: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.errorField, .passwordErrorField, .forgotPasswordMessageField, .forgotPasswordErrorField, .loginErrorField{
+  color: red;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.slider-container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active, .demo:hover {
+  opacity: 1;
+}
+  .column.slider_small_image {
+    width: 140px;
+}
